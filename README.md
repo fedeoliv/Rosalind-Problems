@@ -1,7 +1,7 @@
 Rosalind-Problems
 =================
 
-http://rosalind.info/
+http://rosalind.info/users/Fernando_USJT/
 
 
 Developed by: Fernando Ferreira

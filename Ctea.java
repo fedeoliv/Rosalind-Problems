@@ -56,7 +56,7 @@ public class Ctea {
         }        
         
         return alignments[s.length][t.length];
-	}
+    }
 	
     public static void main(String[] args) {
     	char[] s = "PLEASANTLY".toCharArray();

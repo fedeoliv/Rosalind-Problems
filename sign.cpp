@@ -20,7 +20,7 @@ int main(){
         total *= i + 1;
     }
 
-    output.open ("output_sign.txt");
+    output.open ("rosalind_sign.txt");
     total = total << n;
 
     output << total << endl;

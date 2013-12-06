@@ -2,7 +2,7 @@
 
 import javax.swing.JOptionPane;
 
-public class PartialPerm {
+public class Pper {
 	public static int MAX_VALUE = 1000000;
 	
 	private static int getPermutations(int n, int k) {

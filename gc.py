@@ -1,6 +1,6 @@
 #http://rosalind.info/problems/gc/
 
-dnaFile = open('gc_dna_content.txt', 'r')
+dnaFile = open('rosalind_gc.txt', 'r')
 dna_fasta = dnaFile.readlines()
 dnaFile.close()
 

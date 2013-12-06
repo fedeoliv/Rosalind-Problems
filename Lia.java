@@ -1,6 +1,6 @@
 // http://rosalind.info/problems/lia/
 
-public class IndAlleles {
+public class Lia {
 	private static double getProbability(int k, int n) {
 		int children = (int) Math.pow(2, k);
 		

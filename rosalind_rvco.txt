@@ -1,0 +1,4 @@
+>Rosalind_64
+ATAT
+>Rosalind_48
+GCATA

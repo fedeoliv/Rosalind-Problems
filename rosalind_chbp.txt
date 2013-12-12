@@ -1,0 +1,4 @@
+cat dog elephant mouse rabbit rat
+011101
+001101
+001100

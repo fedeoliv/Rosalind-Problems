@@ -1,0 +1,13 @@
+(((ostrich,cat)rat,(duck,fly)mouse)dog,(elephant,pikachu)hamster)robot;
+>ostrich
+AC
+>cat
+CA
+>duck
+T-
+>fly
+GC
+>elephant
+-T
+>pikachu
+AA

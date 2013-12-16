@@ -76,11 +76,42 @@ class Tree:
             cur[self.u].add(father)
 
         for v in self.vs:
-            cur,children = v.adj_list(father=self.u,cur=cur,children=children)
+            cur,children = v.adj_list(father = self.u, cur = cur, children = children)
             cur[self.u].add(v.u)
             children[self.u].add(v.u)
 
-        return cur,children
+        return cur, children
+    
+    def find_rev(self, dnas, pos, pre = None, mid = None):
+        if pre == None:
+            ret = []
+            for v in self.vs:
+                ret += v.find_rev(dnas,pos,dnas[self.u][pos], None)
+
+            return ret
+
+        elif mid == None:
+            if dnas[self.u][pos] != pre:
+                ret = []
+                for v in self.vs:
+                    ret += [[self] + path for path in v.find_rev(dnas, pos, pre, dnas[self.u][pos])]
+
+                return ret
+            else:
+                return []
+
+        else:
+            if dnas[self.u][pos] == pre:
+                #print("")
+                return [[self]]
+            elif dnas[self.u][pos] == mid:
+                ret = []
+                for v in self.vs:
+                    ret += [[self] + path for path in v.find_rev(dnas,pos,pre,mid)]
+                return ret
+            else:
+                #print("")
+                return []
 
 def newick_parse(s):
     def S():

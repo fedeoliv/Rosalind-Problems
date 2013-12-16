@@ -1,0 +1,15 @@
+(((ostrich,cat)rat,mouse)dog,elephant)robot;
+>robot
+AATTG
+>dog
+GGGCA
+>mouse
+AAGAC
+>rat
+GTTGT
+>cat
+GAGGC
+>ostrich
+GTGTC
+>elephant
+AATTC
